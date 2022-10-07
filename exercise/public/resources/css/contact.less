@@ -1,0 +1,64 @@
+* {
+    .font {
+        font-family: 'Poppins', sans-serif;
+    }
+    .font-finland {
+        font-family: 'Finlandica', sans-serif;
+    }
+
+    box-sizing: border-box;
+    // border: dotted 1px black;
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+
+        nav {
+            z-index: 1;
+            height: 100vh;
+            position: fixed;
+            padding: 2rem 0 0 0;
+            // border-right: 1px solid darkgra;
+            border-radius: 1rem;
+            
+
+            p {
+                left: 50%;
+            }
+            #nav_buttons {
+                margin-top: 15rem;
+            }
+            .selected {
+                
+                padding: 0 1rem;
+                border-radius: .5rem;
+                background-color: rgb(84, 84, 211);
+                color: white;
+            }
+        }
+
+        main {
+            #top_container {
+                height: 50vh;
+                background-color: white;
+                padding: 5rem 0 0 10rem;
+            }
+            #bottom_container {
+                height: 50vh;
+                background-color: rgb(240, 98, 98);
+                padding: 5rem 0 0 10rem;
+                
+                #contact_right {
+                  height: 40vh;
+                  width: 30%;
+                }
+                #name_left {
+                  height: 40vh;
+                  width: 50%;
+                  margin-left: -5rem;
+                }
+            }
+        }
+        
+    }
+}
